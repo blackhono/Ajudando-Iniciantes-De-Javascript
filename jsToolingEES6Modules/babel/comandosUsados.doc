@@ -1,0 +1,33 @@
+para ter o babel usamos o comando para ter primeiro o package.json:
+
+npm init -y
+
+
+e ai digitamos também:
+
+npm install @babel/cli @babel/core @babel/preset-env
+
+
+assim já instalando todas as dependencias. Prontinho.
+
+O babel tem o papel de transformar nosso código em um código mais 'antigo' 
+utilizando javascript. Porém por que fazer isso? Simples, compatibilidade!
+
+Utilizei o comando:
+
+babel ./main.js -o ./bundle.js --presets=@babel/env -w
+
+no package.json para que sempre que eu quiser, basta rodar o script 
+e ele faz essa conversão para mim do meu main.js
+
+comando para rodar o Script:
+
+npm run 'nome do script' 
+
+no caso ficou: 
+
+npm run babel
+
+
+
+
