@@ -1,0 +1,62 @@
+Cuidado ao usar o metodo eval pois ele le o código javascript...
+da para rodar script malicioso usando o eval.
+
+
+
+
+
+
+
+Funções
+
+--Função dentro de objetos são chamadas de métodos
+
+-- Função Construtora
+
+-- Função de Fabrica
+
+Boa para produção de componentes com valores diferentes.
+
+-- Função Recursiva
+
+Interessante para pegar valores e bater...
+muito util com forEach.
+
+-- Função Geradora
+
+
+
+
+
+
+
+/// filter traz um novo array então quando eu faço a pesquisa
+preciso repopular o array a cada chamada.
+rever a ordem da let q estou usando para repopular na chamada do filtro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+____________________________ ENTREVISTAS _______________________________
+Em entrevistas. Perguntar o padrão de projeto se é com factory function, 
+constructor function, classes.
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+Crud com uso de Stringfy para transformar uma array em 
+linha e armazenar no json (JSON.stringfy(ListaDeitems))
+
+Para recuperar o JSON em array basta usar JSON.parse(linhaComItens)
+
+demonstração de uso do localStorage para armazenamento
+usando do localstorage.setItem('chave', item)
+Lembrando que localstorage só utiliza de string por isso
+é interesante transformar arrays em string para usar 
+caso seja necessário.
+
+para recuperação basta usar localstorage.getItem('chave')
+e passar pelo JSON.parse(lista) caso seja um array.
