@@ -1,0 +1,11 @@
+para iniciar o package.json
+
+npm init - y
+
+babel com webpack são dependencias de Desenvolvimento
+npm i --save-dev @babel/preset-env @babel/core @babel/cli babel-loader webpack webpack-cli
+
+
+// regenerator e core são dependencias do projeto
+
+npm i regenerator-runtime core-js 

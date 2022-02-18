@@ -40,7 +40,12 @@ rever a ordem da let q estou usando para repopular na chamada do filtro
 
 
 
+Rodar scripts:
 
+npm run 'nome do script'
+
+
+webpack e babel são Dependencias de Desenvolvimento
 
 
 
